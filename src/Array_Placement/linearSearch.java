@@ -2,9 +2,9 @@ package Array_Placement;
 
 public class linearSearch {
 	
-	public static int linearSearchAlgo(int[] arr, int key) {
+	public static int linearSearchAlgo(int[] arr, int elem) {
 		for(int i = 0; i< arr.length; i++) {
-			if(arr[i] == key) {
+			if(arr[i] == elem) {
 				return i;
 			}
 			
@@ -24,8 +24,8 @@ public class linearSearch {
 		// TODO Auto-generated method stub
 		
 		int [] arr = {5,6,2,7,9};
-		int key = 3;
-		int res =linearSearchAlgo(arr, key);
+		int elem = 5;
+		int res =linearSearchAlgo(arr, elem);
 //		System.out.println(res);
 		
 		if(res == -1) {
