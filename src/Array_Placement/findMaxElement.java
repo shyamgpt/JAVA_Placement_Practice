@@ -11,15 +11,6 @@ public class findMaxElement {
 		}
 		return max;
 		
-		
-		
-		
-//		public static int linearSearchAlgo(int[] arr, int elem) {
-//			for(int i = 0; i< arr.length; i++) {
-//				if(arr[i] == elem) {
-//					return i;
-//				}
-				
 	}	
 	
 	public static int findIndesOfMax(int[] arr, int max) {
