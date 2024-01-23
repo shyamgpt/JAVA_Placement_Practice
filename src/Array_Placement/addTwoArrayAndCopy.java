@@ -1,3 +1,5 @@
+//Copy two independent array into one Array-->
+
 package Array_Placement;
 
 public class addTwoArrayAndCopy {
@@ -22,11 +24,11 @@ public class addTwoArrayAndCopy {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] arr1 = {3,5,6,7,8};
+		int[] arr1 = {3,5,6,7,8,10,24,90};
 		int[] arr2 = {5,3,6,8,2};
 		int[] finalArray = addArray(arr1, arr2);
 		for(int i =0; i<finalArray.length; i++) {
-			System.out.print(finalArray[i] +",");
+			System.out.print(finalArray[i] +" ");
 		}
 		
 	
