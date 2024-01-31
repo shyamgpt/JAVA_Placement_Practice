@@ -10,6 +10,7 @@ public class TriaanglePattern2 {
 		System.out.println("Enter the number");
 		int n = s.nextInt();
 		 int i =1;
+//		 int p =1;
 		 while(i<=n) {
 			 int j =1;
 			 while(i>=j) {
@@ -19,7 +20,14 @@ public class TriaanglePattern2 {
 			 System.out.println();
 			 i=i+1;
 		 }
-
+	
 	}
 
 }
+
+//o/p -->
+//1
+//23
+//345
+//4567
+//56789
