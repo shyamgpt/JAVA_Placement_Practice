@@ -1,3 +1,5 @@
+//Problem --> Java Program to count the total number of vowels and consonants in a string
+
 package string_topic;
 
 import java.util.Scanner;
