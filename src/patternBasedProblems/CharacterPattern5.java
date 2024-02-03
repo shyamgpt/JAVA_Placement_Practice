@@ -2,19 +2,24 @@ package patternBasedProblems;
 
 import java.util.Scanner;
 
-public class CharacterPattern1 {
+public class CharacterPattern5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
-		System.out.println("enter the number");
+		System.out.println("Enter the number");
 		int n = s.nextInt();
 		int i =1;
 		while(i<=n) {
+			int p =i;
 			int j =1;
-			while(j<=n) {
-				char jthChar = (char)('A'+j-1);
+			while(i>=j) {
+				char jthChar = (char)('A'+p-1);
 				System.out.print(jthChar);
+//				System.out.print(p);
+				
+				p++;
+				
 				j++;
 			}
 			System.out.println();
@@ -24,10 +29,3 @@ public class CharacterPattern1 {
 	}
 
 }
-
-//o/p -->
-//
-//ABCD
-//ABCD
-//ABCD
-//ABCD

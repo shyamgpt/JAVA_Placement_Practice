@@ -18,9 +18,9 @@ public class bubbleSort {
 		return arr;
 	}
 	
-	public static int[] bubbleSort(int[] arr) {
-		for(int i =0; i<arr.length; i++) {
-			for(int j = 0; j<arr.length-1; j++) {
+	public static int[] bubbleSort1(int[] arr) {
+		for(int i =0; i<arr.length-1; i++) {
+			for(int j = 0; j<arr.length-1-i; j++) {
 				if(arr[j] > arr[j+1]) {
 					int temp = arr[j];
 					arr[j] = arr[j+1];
@@ -42,7 +42,7 @@ public class bubbleSort {
 		
 		int[] arr1 = inputArray();
           printArray(arr1);
-       int[] arr2 =   bubbleSort(arr1);
+       int[] arr2 =   bubbleSort1(arr1);
           printArray(arr2);
           
 	}

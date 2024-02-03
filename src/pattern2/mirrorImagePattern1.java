@@ -1,21 +1,27 @@
-package patternBasedProblems;
+package pattern2;
 
 import java.util.Scanner;
 
-public class CharacterPattern1 {
+public class mirrorImagePattern1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		System.out.println("enter the number");
 		int n = s.nextInt();
+		
 		int i =1;
 		while(i<=n) {
-			int j =1;
-			while(j<=n) {
-				char jthChar = (char)('A'+j-1);
-				System.out.print(jthChar);
-				j++;
+			int space =1;
+			while(space<=n-i) {
+				System.out.print(" ");
+				space = space+1;
+				
+			}
+			int star =1;
+			while(star<=i) {
+				System.out.print("*");
+				star = star+1;
 			}
 			System.out.println();
 			i++;
@@ -24,10 +30,3 @@ public class CharacterPattern1 {
 	}
 
 }
-
-//o/p -->
-//
-//ABCD
-//ABCD
-//ABCD
-//ABCD

@@ -1,8 +1,8 @@
-package patternBasedProblems;
+package pattern2;
 
 import java.util.Scanner;
 
-public class CharacterPattern1 {
+public class IsocelesTrianglePattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,22 +12,29 @@ public class CharacterPattern1 {
 		int i =1;
 		while(i<=n) {
 			int j =1;
-			while(j<=n) {
-				char jthChar = (char)('A'+j-1);
-				System.out.print(jthChar);
+			while(j<=n-i) {
+				System.out.print(" ");
 				j++;
 			}
+			int k =1;
+			while(k<=i) {
+				System.out.print(k);
+				k++;
+				
+			
+		}
+			int dec = i-1;
+			while(dec>=1) {
+				System.out.print(dec);
+				dec --;
+			}
+
 			System.out.println();
 			i++;
-		}
 
+		
+		}
+		
 	}
 
 }
-
-//o/p -->
-//
-//ABCD
-//ABCD
-//ABCD
-//ABCD
