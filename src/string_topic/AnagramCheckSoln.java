@@ -24,8 +24,8 @@ public class AnagramCheckSoln {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str1 = "Bored";
-		String str2 = "Robed";
+		String str1 = "lives";
+		String str2 = "elvis";
 		boolean res = AnaGramCheck(str1, str2);
 		System.out.println(res);
 
