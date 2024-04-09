@@ -24,6 +24,18 @@ public class ReverseString {
 		
 	}
 	
+	
+	public static boolean palindromCheck(String str1) {
+	String rStr = 	revrString(str1);
+	String oriStr =	inputString();
+	if(rStr.equals(oriStr)) {
+		return true;
+	}else {
+		return false;
+	}
+		
+	}
+	
 	public static void printString(String str) {
 		for(int i =0; i<str.length(); i++) {
 			System.out.print(str.charAt(i) +" ");
@@ -39,6 +51,7 @@ public class ReverseString {
 	System.out.println();
 	
 	printString(revString);
+	System.out.println(palindromCheck(str));
 
 	}
 

@@ -12,7 +12,7 @@ public class StringCatenation {
 //		str1 +=str;
 //		System.out.println(str1);
 		String str3 = str+str1;
-//		System.out.println(str3);
+		System.out.println(str3);
 		
 		str = str.concat(str1);
 		
