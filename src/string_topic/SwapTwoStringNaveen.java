@@ -12,14 +12,15 @@ public class SwapTwoStringNaveen {
 		System.out.println("The value of a is: "+a);
 		System.out.println("The valaue of b is: " +b);
 		
-		a= a+b;
-		System.out.println(a.length());
-		System.out.println(b.length());
 		
+		//1. Append a and b
+		a= a+b;
+		
+		//2.Store initial string a in string b
 		b = a.substring(0, a.length()-b.length());
 		
-		System.out.println(b.length());
 		
+		//3. Store initial string b in string a
 		a = a.substring(b.length());
 		
 		System.out.println("after Swappig:");

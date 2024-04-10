@@ -1,4 +1,4 @@
-package randomQuestion;
+ package randomQuestion;
 
 public class swapTwoNumbers {
 
