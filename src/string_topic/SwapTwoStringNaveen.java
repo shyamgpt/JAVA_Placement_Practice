@@ -5,7 +5,7 @@ public class SwapTwoStringNaveen {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String a = "Helloi";
+		String a = "Hello";
 		String b = "World";
 		
 		System.out.println("Before Swappig:");
