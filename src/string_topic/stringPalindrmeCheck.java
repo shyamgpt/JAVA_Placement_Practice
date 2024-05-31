@@ -35,5 +35,15 @@ public class stringPalindrmeCheck {
 	boolean rws =palindromeCheck(str);
 	System.out.println(rws);
 	}
+	
+	/*public static boolean isPalindrome(String str) {
+    StringBuilder sb = new StringBuilder(str);
+
+    // reverse the string
+    sb.reverse();
+
+    // check if the reversed string is equal to the original string
+    return str.equals(sb.toString());
+}*/
 
 }

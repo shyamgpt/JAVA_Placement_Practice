@@ -1,6 +1,10 @@
 package Selenium_javaInterviewRealQuestion;
 
+import java.util.Scanner;
+
 public class PrintPrimeNumber {
+	
+	Scanner s = new Scanner(System.in);
 	
 	
 	public static boolean OddNum(int num) {
