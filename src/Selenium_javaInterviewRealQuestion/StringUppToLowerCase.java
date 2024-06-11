@@ -7,7 +7,7 @@ public class StringUppToLowerCase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String str  = "heelo every one";
+		String str  = "mADAm";
 		String  x = "";
 		for(int i =0; i<str.length(); i++) {
 			char ch = str.charAt(i);

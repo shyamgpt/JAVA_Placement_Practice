@@ -6,8 +6,8 @@ public class arrayRotation {
 
 	public static int[] rotateArray(int[] arr, int n) {
 		for (int i = 0; i < n; i++) {
-			int last;
-			last = arr[arr.length - 1];
+		 
+		int	last = arr[arr.length - 1];
 
 			for (int j = arr.length - 1; j > 0; j--) {
 				arr[j] = arr[j - 1];

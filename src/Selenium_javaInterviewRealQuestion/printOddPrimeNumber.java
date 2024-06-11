@@ -27,7 +27,7 @@ public class printOddPrimeNumber {
         int num = 0;
         int count = 10;
         for(int i =0; i<count ; i++){
-            if(isPrime(num) && isOdd(num)){
+            if(isPrime(num) ){
                 System.out.println(num);
             }
             num++;
