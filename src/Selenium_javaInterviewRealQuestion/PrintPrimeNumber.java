@@ -34,7 +34,7 @@ public class PrintPrimeNumber {
 		// TODO Auto-generated method stub
 		int count =10;
 		int num = 2;
-		boolean res = isPrime(4);
+		boolean res = isPrime(7);
 		System.out.println(res);
 		for(int i =0; i<count; i++) {
 			if(isPrime(num) && OddNum(num)) {
@@ -46,5 +46,21 @@ public class PrintPrimeNumber {
 		
 
 	}
+	
+	/**
+	 *    int num =0;
+        
+        while(num<20){
+             boolean res = isPrime(num);
+        boolean res1= OddNum(num);
+        
+        if(res == true && res1 == true){
+            System.out.println(num);
+        }
+        num++;
+        }
+	 * 
+	 * 
+	 * */
 
 }

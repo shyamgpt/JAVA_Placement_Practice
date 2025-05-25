@@ -8,7 +8,7 @@ public class CheckForOccurance {
 		char ch = 'e';
 		int count =0;
 		for( int i =0; i<str.length(); i++) {
-			if(str.charAt(i) == 'e') {
+			if(str.charAt(i) == ch) {
 				count ++;
 			}
 		}
@@ -21,6 +21,7 @@ public class CheckForOccurance {
 		String str = "Geekyants  is a my company";
 		int res = occuranceCheck(str);
 		System.out.println(res);
+		
 
 	}
 

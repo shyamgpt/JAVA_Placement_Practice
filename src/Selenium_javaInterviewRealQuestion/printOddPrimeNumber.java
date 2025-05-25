@@ -24,17 +24,17 @@ public class printOddPrimeNumber {
         
     }
     public static void main(String[] args) {
-        int num = 0;
-        int count = 10;
-        for(int i =0; i<count ; i++){
-            if(isPrime(num) ){
-                System.out.println(num);
-            }
-            num++;
-        }
+//        int num = 0;
+//        int count = 10;
+//        for(int i =0; i<count ; i++){
+//            if(isPrime(num) ){
+//                System.out.println(num);
+//            }
+//            num++;
+//        }
        
-        // boolean res = isPrime(num);
-        // System.out.println(res);
+         boolean res = isPrime(7);
+         System.out.println(res);
         
     }
 

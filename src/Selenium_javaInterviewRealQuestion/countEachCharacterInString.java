@@ -22,7 +22,7 @@ public class countEachCharacterInString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		getCharCount("Shyam");
+		getCharCount("Shyamm");
 
 	}
 
