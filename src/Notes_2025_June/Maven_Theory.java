@@ -2,6 +2,14 @@ package Notes_2025_June;
 
 public class Maven_Theory {
 
+	/*Maven Lecture→Naveen Automation
+https://www.youtube.com/watch?v=tyLSFciTU-s
+https://www.youtube.com/watch?v=t5hoD4D0Jo0
+*/
+	
+	//URL --> https://docs.google.com/document/d/1RoyDggDtbhEDTOolFFnorcYxMROOGJpmYqXfk4QICqg/edit?tab=t.21qcy8pz87ki
+	
+	
 	/*  Lear Maven- My First Maven Project
 	 * 
 	 * What is Maven?
@@ -83,8 +91,53 @@ public class Maven_Theory {
 	 * What if i dont want to execute the test cases and just want to generate 
 	 * the build and want to ignore the test case execution.
 	 * 
+	 */
+	
+	
+	
+	 /* 
+	 * How to Run Selenium Maven Project from Console/Command line-->
+	 * Video Url-->https://www.youtube.com/watch?v=lQCyVy-g1e8
 	 * 
 	 * 
+	 *  a) mvn clean--> You can skip this step if you your build get succesfull
+	 *  on running mvn clean test.
+	 * 
+	 * b) mvn clean test-->it will do the clean process
+	 * firstly it will clean/delete the existing jars and again download the jars
+	 * and trigger the automation project and then it will exit.
+	 * 
+	 * 
+	 * c) Let suppose you have differnt runner file
+	 * like- 
+	 * Testng1.xml
+	 * Testng2.xml
+	 * Testng3.xml
+	 * Testng4.xml
+	 * 
+	 * Then how run one testng.xml file at a time..
+	 * 
+	 * for this you have to do one configuration in pom.xml file
+	 * <suiteXmlFile> ${testngFile} <suiteXmlFile>
+	 * 
+	 * Now, maven cmd to run each file-->
+	 * 
+	 * mvn clean test -DfileName=Testng4.xml
+	 * 
+	 * mvn clean test -DfileName=Testng2.xml  ...
+	 * 
+	 * and so on ...
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * */
+	
+	/* Different phases of Maven life cycle-->
+	 * video Url-->https://www.youtube.com/watch?v=-HIP0heHtEE
 	 * 
 	 * 
 	 * 
