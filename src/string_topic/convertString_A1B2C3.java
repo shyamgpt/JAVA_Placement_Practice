@@ -1,6 +1,6 @@
 package string_topic;
 
-public class convertString {
+public class convertString_A1B2C3 {
 	
 public static String convrtString(String str){
         

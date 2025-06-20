@@ -8,8 +8,8 @@ public class RandomSixDigitNumber {
 		Scanner s = new Scanner(System.in);
 		// TODO Auto-generated method stub
 		
-//		int num = (int)(Math.random()*1000000);
-//		System.out.println(num);
+		int num = (int)(Math.random()*1000000);
+		System.out.println(num);
 		
 		
 	}

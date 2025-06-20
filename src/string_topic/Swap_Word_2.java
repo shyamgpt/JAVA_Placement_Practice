@@ -1,6 +1,6 @@
 package string_topic;
 
-public class SwapToWord {
+public class Swap_Word_2 {
 
 	// Function to swap the first and last words of the sentence
 	public static String swapFirstAndLastWords(String sentence) {

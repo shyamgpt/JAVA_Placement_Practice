@@ -6,7 +6,7 @@ public class StringDemo {
 		// TODO Auto-generated method stub
 //		char arr[] = {'c','o','d','i','g'};
 //		
-//		String str = "coding";
+		String str = "coding";
 //		String str1 = "";
 //		//empty string with one space in it will have the length --> 1
 //		String str2 = " ";
@@ -15,10 +15,10 @@ public class StringDemo {
 //		System.out.println(str1.length());
 //		System.out.println(str2.length());
 //		System.out.println(str.charAt(2));
-////		System.out.println(str.charAt(6));
+//		System.out.println(str.charAt(6));
 		
 		
-		String str =" ";
+//		String str ="sh";
 		System.out.println(str.length());
 	}
 

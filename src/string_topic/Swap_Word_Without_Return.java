@@ -1,6 +1,6 @@
 package string_topic;
 
-public class pracrixse {
+public class Swap_Word_Without_Return {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
