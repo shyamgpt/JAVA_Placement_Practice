@@ -23,6 +23,20 @@ Before pushing the code into repository -
 * 
 * git checkout -b branch name
 * Eg: git chekout -b develop
+* 
+3- To merge a different branch into your active branch--
+
+   git merge branchname
+ Eg: Git merge develop
+ 
+ develop is the other branch apart from master
+ 
+ ---------------------------
+ 
+ Merge comflict-->
+ 
+ url-->https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/learn/lecture/13861500#overview
+ 
 
 
 

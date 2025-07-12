@@ -3,7 +3,7 @@ package Selenium_Theory;
 public class XpathVsCss {
 	
 	/**
-	 * What is the major difference between Xpath Ecpression and Css Selector?
+	 * What is the major difference between Xpath Expression and Css Selector?
 	 * Ans-->
 	 * 
 	 * Xpath are more powerfull than CSS Selector.

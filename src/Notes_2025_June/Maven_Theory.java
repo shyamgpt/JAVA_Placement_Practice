@@ -70,8 +70,8 @@ https://www.youtube.com/watch?v=t5hoD4D0Jo0
 	 * 
 	 * 
 	 * 
-	 * -> to run the code in eclipse we will click on "maven test" the it will
-	 * run and will the output, but it will not gererates the TestNg report as we 
+	 * -> to run the code in eclipse we will click on "maven test" then it will
+	 * run and will give the output, but it will not gererates the TestNg report as we 
 	 * run from Maven.
 	 * 
 	 * 
@@ -100,13 +100,14 @@ https://www.youtube.com/watch?v=t5hoD4D0Jo0
 	 * Video Url-->https://www.youtube.com/watch?v=lQCyVy-g1e8
 	 * 
 	 * 
-	 *  a) mvn clean--> You can skip this step if you your build get succesfull
-	 *  on running mvn clean test.
+	 *.
 	 * 
-	 * b) mvn clean test-->it will do the clean process
+	 * a) mvn clean test-->it will do the clean process
 	 * firstly it will clean/delete the existing jars and again download the jars
 	 * and trigger the automation project and then it will exit.
 	 * 
+	 *  b) mvn clean--> You can skip this step if you your build get succesfull
+	 *  on running mvn clean test
 	 * 
 	 * c) Let suppose you have differnt runner file
 	 * like- 

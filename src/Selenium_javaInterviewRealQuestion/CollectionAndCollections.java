@@ -54,5 +54,99 @@ public class CollectionAndCollections {
 	         
 
 	}
+	
+	/*
+	 *        Collection (interface)
+          /       |       \
+       List      Set     Queue   ← all are subinterfaces
+        |         |        |
+ ArrayList   HashSet   LinkedList (examples)
+
+	 * 
+	 * 
+	 * Collection(Singluar) Interface-->
+	 * 
+	 * It is an interface.
+
+It represents a group of objects (like List, Set, etc.)
+
+You can use its methods like add(), remove(), etc.
+	 * 
+	 * 
+	 * Eg of collection-->
+	 * import java.util.*;
+
+public class CollectionExample {
+    public static void main(String[] args) {
+        Collection<String> items = new ArrayList<>();
+        items.add("Apple");
+        items.add("Banana");
+        System.out.println(items); // [Apple, Banana]
+    }
+}
+
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * */
+	
+	
+	/* Collections-->
+	 * 
+	 *  2. Collections (Plural) — Utility Class
+It is a class (not an interface).
+
+It contains static helper methods to work with collections.
+
+Methods like: sort(), reverse(), min(), max(), shuffle(), etc.
+	 * 
+	 * 
+	 * import java.util.*;
+
+public class CollectionsExample {
+    public static void main(String[] args) {
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Orange");
+        fruits.add("Apple");
+        fruits.add("Banana");
+
+        Collections.sort(fruits); // Sorts the list
+        System.out.println(fruits); // [Apple, Banana, Orange]
+    }
+}
+
+	 * 
+	 * 
+	 * | Feature       | `Collection`                 | `Collections`                                 |
+| ------------- | ---------------------------- | --------------------------------------------- |
+| What is it?   | Interface                    | Utility class                                 |
+| Type          | `interface`                  | `final class`                                 |
+| Package       | `java.util.Collection`       | `java.util.Collections`                       |
+| Usage         | To create data structures    | To perform operations on them                 |
+| Example Class | `ArrayList`, `HashSet`, etc. | `Collections.sort()`, `Collections.reverse()` |
+
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * Important method of collection -->
+	 * 
+	 * | Method       | Description                    |
+| ------------ | ------------------------------ |
+| `add()`      | Adds an element                |
+| `remove()`   | Removes an element             |
+| `clear()`    | Removes all elements           |
+| `size()`     | Returns the number of elements |
+| `isEmpty()`  | Checks if collection is empty  |
+| `contains()` | Checks if element exists       |
+| `iterator()` | Returns an iterator to loop    |
+
+	 * 
+	 * 
+	 * 
+	 */
 
 }

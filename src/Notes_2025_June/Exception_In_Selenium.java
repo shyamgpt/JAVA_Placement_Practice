@@ -35,4 +35,22 @@ public class Exception_In_Selenium {
 	 * 
 	 * 
 	 * **/
+	
+	
+	
+	/*
+	 * 
+🧠 When to Use What?
+Use Case	Use
+You want to handle the error in the same method	try-catch
+You want to pass the responsibility to the caller	throws
+You want to manually create and throw an exception	throw
+	 * 
+	 * 
+	 * 
+	 * when to use try-catch and when to use throws and threo
+	 * 
+	 * 
+	 * 
+	 * */
 }
