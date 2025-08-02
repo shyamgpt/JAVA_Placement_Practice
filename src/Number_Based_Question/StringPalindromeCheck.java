@@ -1,4 +1,5 @@
-package randomQuestion;
+package Number_Based_Question;
+// Do not Refer
 
 import java.util.Scanner;
 

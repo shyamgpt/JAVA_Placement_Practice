@@ -1,4 +1,4 @@
-package randomQuestion;
+package Number_Based_Question;
 
 public class printASCIIValue {
 

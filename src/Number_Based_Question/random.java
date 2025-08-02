@@ -1,4 +1,4 @@
-package randomQuestion;
+package Number_Based_Question;
 
 public class random {
 
@@ -9,6 +9,7 @@ public class random {
         int max = 10;
         int min = 1;
         int range = max - min + 1;
+        System.out.println(range);
  
         // generate random numbers within 1 to 10
         for (int i = 0; i < 10; i++) {

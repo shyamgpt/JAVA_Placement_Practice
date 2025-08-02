@@ -22,10 +22,11 @@ public class Swap_Word_Without_Return {
 	                swappedSentence.append(word).append(" ");
 //	                swappedSentence.append(word);
 	            }
-	            
+	            String swappedSentence_stringForm = swappedSentence.toString().trim();
 	            // Print the swapped sentence
 	            System.out.println("String before swapping: " + sentence);
-	            System.out.println("String after swapping: " + swappedSentence.toString().trim());
+	            System.out.println("String after swapping: " + swappedSentence_stringForm);
+	            
 	        } else {
 	            // If there are fewer than two words in the sentence, no swapping can be performed
 	            System.out.println("String must contain at least two words for swapping.");

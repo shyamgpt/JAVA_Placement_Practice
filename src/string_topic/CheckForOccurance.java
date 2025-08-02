@@ -21,7 +21,7 @@ public class CheckForOccurance {
 		String str = "Geekyants  is a my company";
 		int res = occuranceCheck(str);
 		System.out.println(res);
-		
+//		import java.util.Scanner;
 
 	}
 
