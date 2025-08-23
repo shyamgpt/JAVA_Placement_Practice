@@ -15,6 +15,7 @@ public class PrintFibonacciSeries {
 			System.out.print(firstTerm+ ",");
 			nextTerm = firstTerm + secondTerm;
 			firstTerm = secondTerm;
+			
 			secondTerm = nextTerm;
 		}
 

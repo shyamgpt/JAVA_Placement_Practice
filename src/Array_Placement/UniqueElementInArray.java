@@ -18,7 +18,7 @@ public class UniqueElementInArray {
 			}
 
 			// If it's unique, print it
-			if (isUnique) {
+			if (isUnique== true) {
 				System.out.print(arr[i] + " ");
 			}
 		}
