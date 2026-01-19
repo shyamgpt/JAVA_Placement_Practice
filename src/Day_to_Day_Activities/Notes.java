@@ -3,7 +3,8 @@ package Day_to_Day_Activities;
 public class Notes {
 
 	/*
-	 * Day-to-Day Activities
+	 * Day-to-Day Activities-->
+	 * --------------------------
 	 * 
 	 * Daily Stand-up (Scrum/Agile meetings)
 	 * 

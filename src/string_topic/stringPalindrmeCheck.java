@@ -45,5 +45,34 @@ public class stringPalindrmeCheck {
     // check if the reversed string is equal to the original string
     return str.equals(sb.toString());
 }*/
+	
+	/*
+	 * class Main {
+
+    public static void palindromeCheck() {
+        String str = "madamad";
+        boolean res = true;
+        int i = 0;
+        int j = str.length() - 1;
+
+        while (i < j) {
+            if (str.charAt(i) != str.charAt(j)) {
+                res = false;
+                break;
+            }
+            i++;
+            j--;
+        }
+
+        System.out.println(res ? "Palindrome" : "Not Palindrome");
+    }
+
+    public static void main(String[] args) {
+        palindromeCheck();
+    }
+}
+
+	 * 
+	 * */
 
 }

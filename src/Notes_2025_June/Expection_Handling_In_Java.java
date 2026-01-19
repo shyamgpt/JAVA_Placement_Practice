@@ -23,8 +23,13 @@ public class Expection_Handling_In_Java {
 	 * try { // code that might throw an exception } catch (ExceptionType e) {
 	 * //handle the exception }
 	 * 
-	 * Example--> try { int result = 10 / 0; // ArithmeticException } catch
-	 * (ArithmeticException e) { System.out.println("Cannot divide by zero!"); }
+	 * Example--> 
+	 * try { 
+	 * int result = 10 / 0; // ArithmeticException 
+	 * } 
+	 * catch(ArithmeticException e) { 
+	 * System.out.println("Cannot divide by zero!"); 
+	 * }
 	 * 
 	 * 
 	 * 
@@ -74,7 +79,7 @@ public class Expection_Handling_In_Java {
 	
 	
 	/*Combined Example-->
-	 * public void validate(int age) throws IllegalArgumentException {
+	 * public void validateAge(int age) throws IllegalArgumentException {
 	 *    if (age < 18) {
 	 * throw new IllegalArgumentException("Not eligible");
 	 *    }
@@ -82,7 +87,7 @@ public class Expection_Handling_In_Java {
 	 * 
 	 * public void process() {
 	 * try {
-	 *      validate(15);
+	 *      validateAge(15);
 	 * } catch (IllegalArgumentException e) {
 	 * 
 	 * System.out.println("Error: " + e.getMessage());

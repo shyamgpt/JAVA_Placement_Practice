@@ -5,6 +5,8 @@ import java.util.Set;
 
 public class printDuplicateLettersUsingHashMap {
 
+	// Refer this program for this question
+	
 	public static void main(String[] args) {
 		String str = "Welcome to Sapient";
 		HashMap<Character, Integer> map = new HashMap<Character, Integer>();

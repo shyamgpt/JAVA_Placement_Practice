@@ -1,4 +1,4 @@
-package Array_Placement;
+Sysepackage Array_Placement;
 
 public class UniqueElementInArray {
 

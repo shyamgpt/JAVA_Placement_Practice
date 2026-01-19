@@ -20,5 +20,30 @@ public class PrintFibonacciSeries {
 		}
 
 	}
+	
+	/*
+	 * class Main {
+    public static void main(String[] args) {
+
+        int n = 7;   // position of Fibonacci number
+        int firstTerm = 1;
+        int secondTerm = 2;
+        int nextTerm = 0;
+
+        if (n == 1) {
+            System.out.println(firstTerm);
+            return;
+        }
+
+        for (int i = 3; i <= n; i++) {
+            nextTerm = firstTerm + secondTerm;
+            firstTerm = secondTerm;
+            secondTerm = nextTerm;
+        }
+
+        System.out.println("7th Fibonacci number is: " + secondTerm);
+    }
+}
+	 * */
 
 }

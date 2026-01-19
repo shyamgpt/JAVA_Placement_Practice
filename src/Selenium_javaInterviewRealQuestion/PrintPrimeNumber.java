@@ -18,9 +18,9 @@ public class PrintPrimeNumber {
 
 	public static boolean isPrime(int num) {
 		
-//		if(num == 0 || num == 1) {
-//			return false;
-//		}
+		if(num == 0 || num == 1) {
+			return false;
+		}
 		for (int i = 2; i < num ; i++) {
 			if (num % i == 0) {
 				return false;
@@ -34,8 +34,7 @@ public class PrintPrimeNumber {
 		// TODO Auto-generated method stub
 		int count =10;
 		int num = 2;
-		boolean res = isPrime(7);
-		System.out.println(res);
+
 		for(int i =0; i<count; i++) {
 			if(isPrime(num) && OddNum(num)) {
 				System.out.println(num);

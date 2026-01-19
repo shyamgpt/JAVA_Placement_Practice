@@ -29,5 +29,27 @@ public class CountCapitaLetterInString {
 		System.out.println(res);
 
 	}
+	/*
+	 * class Main {
+    
+    public static int countUpCase(){
+        String str = "Automation TesTER";
+        int count =0;
+        for(int i =0; i<str.length();i++){
+            char ch = str.charAt(i);
+            if(Character.isUpperCase(ch)){
+                count++;
+            }
+        } return count;
+    }
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int res =countUpCase();
+        System.out.println(res);
+    }
+}
+	 * 
+	 * */
+	
 
 }

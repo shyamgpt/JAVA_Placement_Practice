@@ -8,13 +8,14 @@ public class CollectionAndCollections {
 
 	/*
 	 * Collection: -->  It is an interface. 
-	 *  It is used to represent a group of individual objects as a single unit.
+	 *  It is used to represent a group of individual objects as a single unit.(like List, Set, etc.)
 	 *  The Collection is an interface that contains a static method since java8. The
 	 *  Interface can also contain abstract and default methods. 
 	 * 
 	 * Collections: ->
 	 * It is a utility class.
 	 * It defines several utility methods that are used to operate on collection
+	 * Methods like: sort(), reverse(), min(), max(),addAll(), etc.
 	 * It contains only static methods.
 	 */
 
@@ -100,7 +101,7 @@ It is a class (not an interface).
 
 It contains static helper methods to work with collections.
 
-Methods like: sort(), reverse(), min(), max(), shuffle(), etc.
+Methods like: sort(), reverse(),addAll(), min(), max(), shuffle(), etc.
 	 * 
 	 * 
 	 * import java.util.*;

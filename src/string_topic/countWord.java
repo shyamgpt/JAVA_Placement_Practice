@@ -19,7 +19,7 @@ public class countWord {
 		
 	}
 	
-	public static int countWord(String str) {
+	public static int countWord1(String str) {
 		int count =1;
 		for(int i =0; i<str.length(); i++) {
 			if(str.charAt(i) == ' ' || str.charAt(i) =='\n' || str.charAt(i) == '\t') {
@@ -35,7 +35,7 @@ public class countWord {
 		
 	String str = inputString();
 	printString(str);
-	int res = countWord(str);
+	int res = countWord1(str);
 	System.out.println();
 	System.out.println(res);
 	

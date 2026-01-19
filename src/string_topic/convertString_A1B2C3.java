@@ -7,6 +7,7 @@ public static String convrtString(String str){
         
         StringBuilder output = new StringBuilder();
         
+        //A1B2C3
         for(int i =0; i<str.length(); i=i+2){
             char letter = str.charAt(i);
             int count = Character.getNumericValue(str.charAt(i+1));

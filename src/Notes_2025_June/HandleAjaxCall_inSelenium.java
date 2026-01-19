@@ -23,8 +23,8 @@ public class HandleAjaxCall_inSelenium {
 
 	}
 	
-	/*Web Pages make ajax call, to retrieve small amount of data from server without
-	 * the need for reloding the page
+	/*Web Pages make ajax call, to retrieve small amount of data from server
+	 * without reloading the entire webpage.
 	 * Eg of Ajax call -->
 	 * Selenium WebDriver handles Ajax call using waiting mechanism
 	 * 1. Implicit wait

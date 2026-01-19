@@ -1,4 +1,4 @@
-package Selenium_javaInterviewRealQuestion;
+ package Selenium_javaInterviewRealQuestion;
 // https://www.geeksforgeeks.org/java-program-to-remove-duplicate-elements-from-the-array/
 import java.util.HashSet;
 import java.util.LinkedHashSet;

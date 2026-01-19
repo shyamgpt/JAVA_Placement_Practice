@@ -7,8 +7,18 @@ public class finalize_In_Java {
 	 * mechanism to allow an object to clean up resources (like closing files or
 	 * releasing memory) before it is garbage collected.
 	 * 
-	 * Example--> protected void finalize() throws Throwable { // cleanup code
-	 * super.finalize(); // optional, but recommended }
+	 * (Main Theory-->
+	 * In Java, finalize() is a method of the Object class that the Garbage Collector (GC)
+	 * used to call before destroying an object.
+	 * 
+	 * How it Works:--> When an object becomes eligible for garbage collection, the
+	 * JVM calls its finalize() method just before destroying the object.
+	 * )
+	 * 
+	 * Example--> 
+	 * protected void finalize() throws Throwable { // cleanup code
+	 * super.finalize(); // optional, but recommended
+	 *  }
 	 * 
 	 * How it Works:--> When an object becomes eligible for garbage collection, the
 	 * JVM calls its finalize() method just before destroying the object.

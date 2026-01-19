@@ -14,6 +14,7 @@ public class Get_Vs_Navaigate {
 	 * -It waits until the entire page is loaded.
 	 * -Does not allow navigating back/forward in history.
 	 * -Cannot be used for refresh or back/forward actions.
+	 * -It belongs to the Webdriver interaface
 	 * 
 	 * 
 	 * Example: driver.get("https://www.google.com");

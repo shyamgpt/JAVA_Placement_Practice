@@ -93,7 +93,7 @@ public class Handling_Dynamic_popups {
 	 * requirements
 	 * 
 	 * Dynamic popup--> Normal Popup [confirmation message / Alerts] is designed
-	 * such that it will be displayed Sometime and we are not sure the popup will be
+	 * such that it will be displayed Sometime and we are not sure when the popup will be
 	 * displayed. -This depends upon the internal bussiness logic and internal
 	 * implementation.
 	 * 

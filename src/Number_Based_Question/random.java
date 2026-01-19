@@ -18,8 +18,8 @@ public class random {
            
             // Output is different everytime this code is executed
             System.out.print(rand + " ");
-            System.out.print(" -> "  );
-            System.out.print(rand1 + " "+ ", ");
+//            System.out.print(" -> "  );
+//            System.out.print(rand1 + " "+ ", ");
         }
 
 	}

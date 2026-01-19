@@ -7,7 +7,6 @@ public class countEachNumInArray {
 	
 	public static void getCharCount(int []arr) {
 		HashMap<Integer, Integer> charMap = new HashMap<Integer,Integer>();
-//		char[] strArray = name.toCharArray();
 		for(int c : arr) {
 			if(charMap.containsKey(c)) {
 				charMap.put(c, charMap.get(c)+1);
